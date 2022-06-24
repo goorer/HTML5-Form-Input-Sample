@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Index</title>
+  </head>
+  <body>
+    <form action="#" method="POST">
+      <h1>HTML5 Form-Input Sample</h1>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" step="1" value="10" />
+        <br />
+        <p><label for="count">Slider</label></p>
+        <span>Min</span>
+        <input
+          type="range"
+          name="count"
+          id="count"
+          min="0"
+          max="10"
+          step="0.5"
+        />
+        <span>Max</span>
+        <br />
+        <p>Choose Checkbox</p>
+        <input type="checkbox" name="male" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="checkbox" name="female" id="female" value="female" />
+        <label for="female">Female</label>
+        <p>Whitch one do you like</p>
+        <input type="radio" name="cat" id="cat" value="cat" />
+        <label for="cat">Cat</label>
+        <input type="radio" name="dog" id="dog" value="dog" />
+        <label for="dog">Dog</label>
+        <p><label for="color">Whitch one do you like color</label></p>
+        <select name="color" id="color">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+        </select>
+        <p><label for="city">Town where you live</label></p>
+        <input type="text" name="city" id="city" list="cities" />
+        <datalist id="cities">
+          <option value="tokyo"></option>
+          <option value="saitama"></option>
+          <option value="chiba"></option>
+        </datalist>
+        <p><label for="extra">Free Text</label></p>
+        <textarea name="extra" id="extra" rows="3" cols="30"> </textarea>
+        <p><label for="submit">Finish</label></p>
+        <input type="submit" name="submit" id="submit/>
+      </div>
+    </form>
+  </body>
+</html>
